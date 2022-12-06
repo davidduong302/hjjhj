@@ -1,0 +1,23 @@
+menu{
+    width: 100%;
+    background-color: aquamarine;
+    overflow: auto;
+    position: fixed;
+    top: 0;
+}
+menu a{
+    text-decoration: none;
+    float: left;
+    color: whitesmoke;
+    font-size: 17px;
+    padding: 12px;
+}
+menu a:hover{
+    background-color: black;
+}
+@media screen and (max-width:800px) {
+    .menu a{
+        float: none;
+        display: block;
+    }
+}
